@@ -74,9 +74,20 @@ struct HomePageElements: View {
                 .fontWeight(.semibold)
                 .fontDesign(.rounded)
             
-            buttonView(btnName: "Camera", imageName: "camera.fill")
-                .padding()
-            buttonView(btnName: "Gallery", imageName: "photo.stack")
+            
+            NavigationLink {
+                MemeView()
+            } label: {
+                buttonView(btnName: "Camera", imageName: "camera.fill")
+            }
+            .padding()
+            
+            NavigationLink {
+                MemeView()
+            } label: {
+                buttonView(btnName: "Gallery", imageName: "photo.stack")
+            }
+
             
             
             
