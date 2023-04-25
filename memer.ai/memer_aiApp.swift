@@ -11,7 +11,7 @@ import SwiftUI
 struct memer_aiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomePage()
         }
     }
 }

@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5D29DBEB29F82BC500939A44 /* memer_aiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D29DBEA29F82BC500939A44 /* memer_aiApp.swift */; };
-		5D29DBED29F82BC500939A44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D29DBEC29F82BC500939A44 /* ContentView.swift */; };
 		5D29DBEF29F82BC600939A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D29DBEE29F82BC600939A44 /* Assets.xcassets */; };
 		5D29DBF229F82BC600939A44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D29DBF129F82BC600939A44 /* Preview Assets.xcassets */; };
+		5D5CC52729F8642E005D8B03 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5CC52629F8642E005D8B03 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D29DBE729F82BC500939A44 /* memer.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memer.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D29DBEA29F82BC500939A44 /* memer_aiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memer_aiApp.swift; sourceTree = "<group>"; };
-		5D29DBEC29F82BC500939A44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D29DBEE29F82BC600939A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D29DBF129F82BC600939A44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D5CC52629F8642E005D8B03 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +32,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D29D16B29F84B33007EE4F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D29D16C29F84B3A007EE4F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D5CC52629F8642E005D8B03 /* HomePage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D29D16D29F84B42007EE4F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		5D29DBDE29F82BC500939A44 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +73,10 @@
 		5D29DBE929F82BC500939A44 /* memer.ai */ = {
 			isa = PBXGroup;
 			children = (
+				5D29D16D29F84B42007EE4F3 /* ViewModel */,
+				5D29D16C29F84B3A007EE4F3 /* View */,
+				5D29D16B29F84B33007EE4F3 /* Model */,
 				5D29DBEA29F82BC500939A44 /* memer_aiApp.swift */,
-				5D29DBEC29F82BC500939A44 /* ContentView.swift */,
 				5D29DBEE29F82BC600939A44 /* Assets.xcassets */,
 				5D29DBF029F82BC600939A44 /* Preview Content */,
 			);
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D29DBED29F82BC500939A44 /* ContentView.swift in Sources */,
+				5D5CC52729F8642E005D8B03 /* HomePage.swift in Sources */,
 				5D29DBEB29F82BC500939A44 /* memer_aiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
